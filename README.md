@@ -14,17 +14,30 @@ Screenshot 1: Registration Page
 ![image](https://github.com/gaurav0401/Travel-Website-Using-PHP-and-MySQL/assets/80095859/8c53d2b4-1588-483e-ac63-8d785bf041f7)
 
 
+
+  
 Screenshot 2: Login Page
 
 ![image](https://github.com/gaurav0401/Travel-Website-Using-PHP-and-MySQL/assets/80095859/b586f4d9-4f79-48fb-97fb-70eac050b205)
+
+
+
 
 Screenshot 3:  sucess login acknowledge
 
 ![image](https://github.com/gaurav0401/Travel-Website-Using-PHP-and-MySQL/assets/80095859/127b0423-f281-44a2-b481-46e5eb10604d)
 
+
+
+
+
 Screenshot 4: Home page
 
 ![image](https://github.com/gaurav0401/Travel-Website-Using-PHP-and-MySQL/assets/80095859/a0e6293e-28e6-4790-bb65-5e521c826ac8)
+
+
+
+
 
 
 Screenshot 5: Packages
