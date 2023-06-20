@@ -1,0 +1,132 @@
+<!-- This is a Registration page for travel.com where user have to fill details -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Registration page</title>
+    <style>
+        body{
+
+            background: url("pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg");
+        }
+
+        a{
+            position: relative;
+           bottom: 58px;
+           left: 385px;
+           text-decoration: none;
+        }
+
+        .bigbox1{
+
+            border: 1px solid rgb(209, 221, 235);
+            border-radius: 44px;
+            margin-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 4vw;
+            margin-left: 12px;
+            margin-right: 55vw;
+            background-color: rgb(209, 221, 235);
+            opacity: 0.84;
+        }
+
+        #btn1{
+            position: relative;
+            left: 12vw;
+            top: 10px;
+            border: 1px solid white;
+            border-radius: 4px;
+            background-color: rgb(225, 250, 187);
+        }
+
+        #fname , #lname , #phone , #email, #gender , #address , #pass1 , #pass2{
+            border: 1px solid white;
+            border-radius: 8px;
+        }
+
+        #address{
+            position: relative;
+            top: 8px;
+        }
+
+        #fname , #phone{
+
+            margin-right: 15px;
+        }
+
+           #pass1 , #pass2{
+
+            width: 450px;
+        } 
+
+        #email{
+            width: 525px;
+        }
+    </style>
+</head>
+
+<body>
+   <?php require('_nav.php') ?>
+   <div class="bigbox1">
+
+  
+        <form action="postdata.php" method="post">
+
+            <fieldset class="box1">
+                <br><br>
+                <h3>Registration Form for TravelWorld.Com</h3>
+                <br><br>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname" placeholder="Enter first name">
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname" placeholder="Enter last name">
+                <br><br>
+                <label for="phone">Phone:</label>
+                <input type="number" name="phone" id="phone" placeholder="Enter phone number">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                </select>
+                <br>
+                <br>
+                <label for="address">Address:</label>
+                <textarea name="address" id="address" cols="55" rows="1" placeholder="Enter address"></textarea>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter Email ID">
+                   <br><br>
+                <label for="pass1">Create password:</label>
+                <input type="password" name="pass1" id="pass1" placeholder="create your password"> 
+                <br><br>
+                <label for="pass2">Re-Type password:</label>
+                <input type="password" name="pass2" id="pass2" placeholder="Re-type your password"> 
+
+                <br><br>
+                <button type="submit" id="btn1">Sign UP</button>
+                <br><br>
+                <a href="signup.php">Already Registered?</a>
+
+
+            </fieldset>
+
+        </form>
+    
+
+
+ 
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
