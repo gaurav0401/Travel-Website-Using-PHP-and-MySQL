@@ -18,7 +18,8 @@ Screenshot 1: Registration Page
   
 Screenshot 2: Login Page
 
-![image](https://github.com/gaurav0401/Travel-Website-Using-PHP-and-MySQL/assets/80095859/b586f4d9-4f79-48fb-97fb-70eac050b205)
+![image](https://github.com/gaurav0401/Travel-Website-Using-PHP-and-MySQL/assets/80095859/e6aa602d-400a-4a43-a7ae-a4db0705ab46)
+
 
 
 
